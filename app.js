@@ -38,9 +38,10 @@ function apply() {
   }
 }
 function modalBtn() {
-  document.getElementById("discountPrice").innerText = "00";
-  document.getElementById("total").innerText = "00";
-  document.getElementById("totalPrice").innerText = "00";
+  totalPrice = 0;
+  document.getElementById("discountPrice").innerText = 0;
+  document.getElementById("total").innerText = 0;
+  document.getElementById("totalPrice").innerText = 0;
   document.getElementById("cart-items").innerText = "";
   document.getElementById("couponValue").value = "";
   document.getElementById("btn-purchase").disabled = true;
