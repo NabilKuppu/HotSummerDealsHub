@@ -10,7 +10,7 @@ function total(data) {
   const mainContainer = document.getElementById("cart-items");
   element = data.childNodes[3].childNodes[3].innerText;
   const createElement = document.createElement("li");
-  createElement.innerHTML = `${count}: ${element}`;
+  createElement.innerHTML = `${count}. ${element}`;
   mainContainer.appendChild(createElement);
   const price =
     data.childNodes[3].childNodes[4].nextSibling.childNodes[0].innerText;
