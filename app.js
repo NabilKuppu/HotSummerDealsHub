@@ -39,6 +39,7 @@ function apply() {
   }
 }
 function modalBtn() {
+  count = 0;
   totalPrice = 0;
   document.getElementById("discountPrice").innerText = 0;
   document.getElementById("total").innerText = 0;
